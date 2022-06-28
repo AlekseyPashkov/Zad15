@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Генератор случайных пользователей</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body>
+<div class="container">
+    <div class="row align-items-center">
+        <div class="card mx-auto">
+            <div class="card-body" id="card-bg">
+                <h4 class="card-title"><span id="surnameOutput">Фамилия</span></h4>
+                <h6 class="card-subtitle mb-2 text-muted"><span id="firstNameOutput">Имя Отчетство</span></h6>
+                <p class="card-text">
+                    Пол: <span id="genderOutput">Пол</span>
+                    <br/>
+                    День рождения: <span id="birthDayOutput">День рождения</span>
+                    <span id="birthMonthOutput">Месяц рождения</span>
+                    <br/>
+                    Год рождения: <span id="birthYearOutput">Года рождения</span>
+                    <br/>
+                    Профессия: <span id="professionOutput">Профессия</span>
+                </p>
+                <button class="btn btn-primary" id="generateBtn">Генерировать</button>
+                <button class="btn btn-danger" id="clearBtn">Очистить</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="personGenerator.js"></script>
+<script src="init.js"></script>
+</body>
+</html>

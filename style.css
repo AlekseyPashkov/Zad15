@@ -1,0 +1,19 @@
+body {
+	background: url(img/bg.jpg);
+	background-size: cover;
+	box-shadow: 0 0 0 2000px rgb(0 0 0 / 50%) inset;
+}
+
+.row.align-items-center{ 
+	height: 100vh;
+}
+
+.card.mx-auto {
+	min-width: 350px;
+	max-width: 500px;
+}
+
+.card-body {
+    background-repeat:  no-repeat !important;
+    background-position: top right !important;
+}
